@@ -1,0 +1,40 @@
+.cssmarquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    }
+    .cssmarquee h1 {
+    position: absolute;
+    color: darkblue;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: left;
+    animation: cssmarquee 2s linear infinite alternate;
+    }
+    @keyframes cssmarquee {
+    0% {
+    transform: translateX(70%);
+    }
+    100% {
+    transform: translateX(0%);
+    }
+    }
+
+.custom_image{
+    height: 260px;
+    width: 260px;
+    padding-bottom: 5px;
+}    
+
+.images{
+
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+}
+
